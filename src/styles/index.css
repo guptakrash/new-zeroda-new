@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+.panel {
+  @apply bg-kite-panel border border-kite-border rounded-xl shadow-soft;
+}
+
+.muted {
+  @apply text-kite-muted;
+}
+
+
